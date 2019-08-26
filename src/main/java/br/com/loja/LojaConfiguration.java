@@ -6,6 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan({"br.com.loja.controller"})
+@ComponentScan({"br.com.loja.repository"})
 public class LojaConfiguration{
 
 	public static void main(String[] args) {
